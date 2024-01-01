@@ -1,9 +1,10 @@
 {
   "name": "webapp",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "npx browser-sync -w"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "devair restani",
@@ -11,5 +12,8 @@
   "description": "JSExpert Max Gesture Controller - Semana JS Expert 7.0",
   "devDependencies": {
     "browser-sync": "^2.27.11"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
